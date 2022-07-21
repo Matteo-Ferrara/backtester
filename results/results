@@ -1,0 +1,74 @@
+starting_date = "1999-01-01"
+ending_date = "2022-01-01"
+position_risk = 0.005
+initial_equity = 1000000
+fee = False
+fee_structure = [0.02, 0.2]
+commission = 10
+
+The CAGR is: 0.1226
+The annual volatility is: 0.1030
+The max drawdown is: -0.1779
+The sharpe ratio is: 1.1748
+The sortino ratio is: 1.7489
+Calmar ratio: 0.6888
+Correlation:-0.1083
+--------------------------------------------------------
+starting_date = "1999-01-01"
+ending_date = "2022-01-01"
+position_risk = 0.005
+initial_equity = 1000000
+fee = True
+fee_structure = [0.02, 0.2]
+commission = 10
+
+The CAGR is: 0.0881
+The annual volatility is: 0.1067
+The max drawdown is: -0.2253
+The sharpe ratio is: 0.8450
+The sortino ratio is: 1.2168
+Calmar ratio: 0.3909
+Correlation:-0.1133
+-------------------------------------------------------
+starting_date = "2023-01-01"
+ending_date = "2050-01-01"
+position_risk = 0.005
+initial_equity = 100000000
+fee = False
+fee_structure = [0.02, 0.2]
+commission = 10
+
+The CAGR is: 0.0404
+The annual volatility is: 0.0584
+The max drawdown is: -0.2276
+The sharpe ratio is: 0.7074
+The sortino ratio is: 1.0380
+Calmar ratio: 0.1774
+--------------------------------------------------------
+starting_date = "2023-01-01"
+ending_date = "2050-01-01"
+position_risk = 0.005
+initial_equity = 100000000
+fee = False
+fee_structure = [0.02, 0.2]
+
+commission = 10
+The CAGR is: 0.0438
+The annual volatility is: 0.0580
+The max drawdown is: -0.1289
+The sharpe ratio is: 0.7678
+The sortino ratio is: 1.1467
+Calmar ratio: 0.3397
+
+--------------------------------------------------------
+starting_date = "2023-01-01"
+ending_date = "2090-01-01"
+position_risk = 0.005
+initial_equity = 100000000
+
+The CAGR is: 0.0228
+The annual volatility is: 0.0564
+The max drawdown is: -0.2548
+The sharpe ratio is: 0.4286
+The sortino ratio is: 0.6199
+Calmar ratio: 0.0896

@@ -1,0 +1,2 @@
+# Backtester
+Rudimentary backtesting framework
