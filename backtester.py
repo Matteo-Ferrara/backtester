@@ -140,9 +140,7 @@ for market in tqdm(markets_list):
     market_data["long_signal"] = market_data.long_signal.shift(1).ffill()
     market_data["Order"] = market_data.long_signal + market_data.short_signal
     market_data.Order = (
-        market_data.Order.replace("longflat", "long")
-        .replace("flatflat", "flat")
-        .replace("flatshort", "short")
+        market_data.Order.replace(["longflat", "flatflat", "flatshort"], ["long", "flat", "short"])
     )
     market_orders = market_data.where(
         (market_data.Order != market_data.Order.shift()), other=None
